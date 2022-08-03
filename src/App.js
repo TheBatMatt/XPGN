@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './Pages/Homepage'
+import Home from './pages/Homepage'
 import './App.css';
 
 function App() {
   return (
-    <Home></Home>
+    <Home />
   );
 }
 

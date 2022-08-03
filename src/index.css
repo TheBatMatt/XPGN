@@ -1,3 +1,26 @@
 body {
   background-color: black;
 }
+
+#featuredSection {
+  display: flex;
+  float: right;
+  margin-right: 50px;
+  width: 60%;
+  height: 60%;
+  border: 3px solid white;
+}
+
+.featuredIMG {
+  width: 100%;
+  height: 100%;
+}
+
+#genreSearch {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin-left: 50px;
+  border: 3px solid white;
+  background-color: red;
+}
